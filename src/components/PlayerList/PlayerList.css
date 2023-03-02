@@ -1,6 +1,12 @@
 #PlayerList {
+	overflow: auto;
+	height: 150px;
 	margin-top: 15px;
 	margin-bottom: 15px;
+}
+
+#PlayerList::-webkit-scrollbar {
+	display: none;
 }
 
 .Player {
