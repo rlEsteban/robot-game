@@ -1,0 +1,29 @@
+#RobotControls {
+	display: flex;
+	font-size: 30px;
+	gap: 10px;
+}
+
+.ControlButton {
+	color: rgb(33, 33, 33);
+	font-size: 35px;
+	font-weight: bold;
+	background: none;
+	padding: 0;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.ControlButton:hover {
+	background-color: #d4d5d6;
+}
+
+.ControlButton:active {
+	background-color: #cccccc;
+}
+
+.ControlButton:disabled {
+	background: rgb(216, 216, 216);
+	color: #9a9a9a;
+	cursor: not-allowed;
+}

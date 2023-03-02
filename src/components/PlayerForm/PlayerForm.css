@@ -1,0 +1,15 @@
+#Submit {
+	font-size: 18px;
+	font-weight: bold;
+	color: whitesmoke;
+	background-color: #989898;
+	align-self: flex-start;
+}
+
+#Submit:hover {
+	background-color: #d4d5d6;
+}
+
+#Submit:active {
+	background-color: #cccccc;
+}

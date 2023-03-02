@@ -1,0 +1,35 @@
+.GameStat {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#Leaderboard {
+	display: flex;
+	flex-direction: column;
+	height: 400px;
+	padding: 25px;
+	padding-top: 0px;
+	padding-right: 50px;
+	background-color: whitesmoke;
+	border-radius: 0 50px 50px 0;
+}
+
+#LeaderboardHeader {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 15px;
+	padding-left: 0;
+	background-color: whitesmoke;
+}
+
+#LeaderboardEntries {
+	overflow: auto;
+}
+
+#LeaderboardEntries::-webkit-scrollbar {
+	display: none;
+}
+
+#EmptyLeaderboard {
+	font-style: italic;
+}

@@ -1,0 +1,28 @@
+#HomeContainer {
+	width: 400px;
+	padding: 20px;
+	text-align: center;
+}
+
+#WelcomeText {
+	font-size: 30px;
+	margin: 20px;
+}
+
+.Details {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+#NavContainer {
+	display: flex;
+	padding: 25px;
+	gap: 25px;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.NavButton {
+	width: 200px;
+	font-size: 20px;
+}

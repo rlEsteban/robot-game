@@ -1,0 +1,89 @@
+.Layout {
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	color: whitesmoke;
+	font-weight: bold;
+	border-radius: 10px;
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: #989898;
+}
+
+button:hover {
+	background-color: #d4d5d6;
+}
+
+button:active {
+	background-color: #cccccc;
+}
+
+button:disabled {
+	background: rgb(216, 216, 216);
+	cursor: not-allowed;
+}
+
+.BackToHomeLink {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+	color: black;
+	padding: 20px;
+	cursor: pointer;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	padding: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	max-width: 350px;
+	border-radius: 15px;
+	background-color: whitesmoke;
+}
+
+label {
+	font-size: 20px;
+}
+
+input {
+	font-size: 18px;
+	padding: 5px;
+	padding-top: 10px;
+	margin-top: 10px;
+	border: none;
+}
+
+input:focus {
+	outline: none;
+}
+
+.FormHeader {
+	font-size: 25px;
+	margin-bottom: 0;
+}
+
+.FormText {
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+.FormField {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.FormFieldError {
+	color: red;
+	margin-top: 3px;
+}

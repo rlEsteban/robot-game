@@ -1,0 +1,34 @@
+.SetupViewContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.SetupHeader {
+	font-size: 25px;
+	margin: 0;
+}
+
+.SetupText {
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+#PlayersContainer {
+	display: flex;
+	flex-direction: column;
+	max-width: 200px;
+	padding: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 25px;
+	border-radius: 15px;
+	background-color: whitesmoke;
+	justify-content: space-between;
+}
+
+#ClickToPlayLink {
+	align-self: center;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}

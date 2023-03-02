@@ -1,0 +1,7 @@
+.Robot {
+	display: flex;
+	font-size: 35px;
+	align-items: center;
+	justify-content: center;
+	background-color: #a3ceff !important;
+}
